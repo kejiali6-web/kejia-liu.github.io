@@ -16,7 +16,7 @@ A wearable assistive-tech device that helps rehabilitation patients visualize th
 - 🌐 [Live Website](https://kejia-liu.github.io/)
 - 💼 [LinkedIn](https://www.linkedin.com/in/kejia-liu-92559633b)
 - 📧 liukejia0111@163.com
-- 🧠 [Delta Program](https://thedeltaprogram.com)
+- 🧠 [Delta Program]https://kejiali6-web.github.io/Rehab-companion-light/
 
 ---
 
