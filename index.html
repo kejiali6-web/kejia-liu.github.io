@@ -4,65 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kejia Liu | Portfolio</title>
-  <style>
-    body {
-      font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background-color: #fafafa;
-      color: #222;
-      line-height: 1.7;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      text-align: center;
-      padding: 70px 20px 30px;
-    }
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.2em;
-    }
-    h2 {
-      font-size: 1.3rem;
-      font-weight: 500;
-      color: #555;
-    }
-    main {
-      max-width: 820px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-    section {
-      margin-bottom: 60px;
-    }
-    h3 {
-      font-size: 1.2rem;
-      border-left: 4px solid #000;
-      padding-left: 10px;
-      margin-bottom: 15px;
-    }
-    p {
-      font-size: 1rem;
-      color: #333;
-    }
-    .project {
-      background: #fff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-      padding: 25px;
-      margin-top: 15px;
-    }
-    .links a {
-      color: #0066cc;
-      text-decoration: none;
-      margin-right: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 40px 0;
-      font-size: 0.9rem;
-      color: #777;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
@@ -71,7 +13,7 @@
   </header>
 
   <main>
-    <section>
+    <section id="about">
       <h3>About</h3>
       <p>
         I’m a BSE Mechanical Engineering Systems student at Arizona State University, passionate about
@@ -80,7 +22,7 @@
       </p>
     </section>
 
-    <section>
+    <section id="project">
       <h3>Current Project: Rehab Companion Light</h3>
       <div class="project">
         <p>
@@ -100,7 +42,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="achievements">
       <h3>Highlights & Achievements</h3>
       <ul>
         <li>Built and refined <em>Rehab Companion Light</em> through Delta Program (Cohort 1)</li>
@@ -110,7 +52,7 @@
       </ul>
     </section>
 
-    <section>
+    <section id="vision">
       <h3>Vision</h3>
       <p>
         To make rehabilitation visible, engaging, and emotionally supportive — combining mechanical engineering
@@ -118,7 +60,7 @@
       </p>
     </section>
 
-    <section class="links">
+    <section id="links">
       <h3>Links</h3>
       <a href="https://www.linkedin.com/in/kejia-liu-92559633b" target="_blank">LinkedIn</a>
       <a href="mailto:liukejia0111@163.com">Email</a>
@@ -130,5 +72,7 @@
   <footer>
     © 2025 Kejia Liu · Designed with curiosity and care
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
